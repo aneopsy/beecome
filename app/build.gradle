@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.hugo'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "io.aneopsy.theis_p.beecome"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 10
+        versionName "2.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+repositories {
+    maven {url "https://jitpack.io" }
+    maven {url "https://s3.amazonaws.com/repo.commonsware.com" }
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile "com.android.support:appcompat-v7:23.1.1"
+    compile 'com.android.support:support-v13:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:palette-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.jakewharton.timber:timber:4.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'jp.wasabeef:picasso-transformations:2.0.0'
+    compile 'com.commonsware.cwac:camera:0.6.+'
+    compile 'com.github.dmytrodanylyk:circular-progress-button:00141ddc63'
+    compile 'com.prolificinteractive:material-calendarview:1.2.0'
+}

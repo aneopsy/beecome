@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <string name="app_name">BeeCome</string>
+    <plurals name="likes_count">
+        <item quantity="one">%d vote</item>
+        <item quantity="other">%d votes</item>
+    </plurals>
+    <string-array name="user_photos">
+        <item>http://img15.hostingpics.net/pics/686757ecranpoubelle.png</item>
+    </string-array>
+    <string-array name="user_photos_2">
+        <item>http://img15.hostingpics.net/pics/966258notedelasemaine.png</item>
+    </string-array>
+    <string name="user_profile_photo">http://img4.hostingpics.net/thumbs/mini_592836bonhomme.png</string>
+
+    <string-array name="custom_weekdays">
+        <item>Dim</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juil</item>
+        <item>Aout</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

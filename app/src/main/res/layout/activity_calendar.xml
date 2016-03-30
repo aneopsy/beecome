@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_calendar_toolbar" />
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="all"
+        app:mcv_arrowColor="?attr/colorPrimary"
+        app:mcv_leftArrowMask="@drawable/ic_navigation_arrow_back"
+        app:mcv_rightArrowMask="@drawable/ic_navigation_arrow_forward"
+        app:mcv_selectionColor="?attr/colorPrimary"
+        app:mcv_headerTextAppearance="?android:attr/textAppearanceMedium"
+        app:mcv_dateTextAppearance="@style/CustomDayTextAppearance"
+        app:mcv_weekDayTextAppearance="?android:attr/textAppearanceMedium"
+        app:mcv_weekDayLabels="@array/custom_weekdays"
+        app:mcv_monthLabels="@array/custom_months"
+        app:mcv_tileSize="48dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="date"
+        android:paddingTop="15dp" />
+
+    <io.aneopsy.theis_p.beecome.ui.view.RevealBackgroundView
+        android:id="@+id/vRevealBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8" />
+
+</LinearLayout>

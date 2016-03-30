@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.aneopsy.theis_p.beecome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name=".InstaMaterialApplication"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".ui.activity.ConseilActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".ui.activity.CommentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".ui.activity.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".ui.activity.TakePhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".ui.activity.PublishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activity.FrigoActivity"
+            android:theme="@style/AppTheme.TransparentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.AboutActivity"
+            android:theme="@style/AppTheme.TransparentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PointsActivity"
+            android:theme="@style/AppTheme.TransparentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.DefisActivity"
+            android:theme="@style/AppTheme.TransparentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.CalendarActivity"
+            android:parentActivityName=".ui.activity.BaseDrawerActivity"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.BaseDrawerActivity"
+                />
+
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+                <category android:name="com.prolificinteractive.materialcalendarview.sample.SAMPLE" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ui.activity.SignupActivity"
+            android:theme="@style/AppTheme.Dark"
+            android:screenOrientation="portrait"/>
+    </application>
+</manifest>

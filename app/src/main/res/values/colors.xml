@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--colors.xml-->
+<resources>
+    <color name="style_color_primary">#f9c77e</color>
+    <color name="colorUser">#fbebd0</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#434343</color>
+
+    <color name="fab_color_pressed">#434343</color>
+    <color name="fab_color_normal">#f9c77e</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="primary">#F8F8F8</color>
+    <color name="bg">#F8F8F8</color>
+    <color name="primary_dark">#FBEBD0</color>
+    <color name="primary_darker">#FBEBD0</color>
+    <color name="accent">#434343</color>
+    <color name="login_text">#434343</color>
+    <color name="login_champ">#FBEBD0</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40143be7</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+    <color name="text">#434343</color>
+    <color name="menu_text">#666666</color>
+    <color name="menu_icon">#434343</color>
+    <color name="menu_head">#F9C77E</color>
+    <color name="menu_head_name">#434343</color>
+    <color name="text_like_counter">#f9c77e</color>
+    <color name="menu_bg">#F8F8F8</color>
+    <color name="bg_comments">#ffffff</color>
+
+
+</resources>

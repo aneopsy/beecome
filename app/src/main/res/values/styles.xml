@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- styles.xml-->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/style_color_primary</item>
+        <item name="colorPrimaryDark">@color/style_color_primary_dark</item>
+        <item name="colorAccent">@color/style_color_accent</item>
+        <item name="colorControlHighlight">@color/fab_color_pressed</item>
+        <item name="android:fontFamily">fonts/GothamHTF-Book.ttf"</item>
+        <item name="actionMenuTextColor">@color/text</item>
+        <item name="android:actionMenuTextColor">@color/text</item>
+    </style>
+
+
+
+    <style name="AppTheme.TransparentActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fontFamily">fonts/GothamHTF-Book.ttf"</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fontFamily">fonts/GothamHTF-Book.ttf"</item>
+    </style>
+
+    <style name="ContextMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_context_menu</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="actionMenuTextColor">@color/text</item>
+        <item name="android:actionMenuTextColor">@color/text</item>
+        <item name="android:fontFamily">fonts/GothamHTF-Book.ttf"</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:fontFamily">fonts/GothamHTF-Book.ttf"</item>
+
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="colorControlNormal">@color/login_text</item>
+        <item name="colorControlActivated">@color/login_text</item>
+        <item name="colorControlHighlight">@color/login_text</item>
+        <item name="android:textColorHint">@color/login_text</item>
+        <item name="android:textColor">@color/login_text</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <item name="android:colorButtonNormal">@color/primary_darker</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/login_text</item>
+        <item name="android:textColorPrimary">@color/login_text</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="CustomDayTextAppearance"
+        parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/mcv_text_date_light</item>
+    </style>
+</resources>
